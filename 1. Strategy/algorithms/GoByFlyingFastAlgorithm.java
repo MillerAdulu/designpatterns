@@ -1,5 +1,7 @@
-public class GoByFlyingAlgorithm implements GoAlgorithm {
+package algorithms;
+
+public class GoByFlyingFastAlgorithm implements GoAlgorithm {
     public void go() {
-        System.out.println('Now I am flying fast.');
+        System.out.println("Now I am flying fast.");
     }
 }

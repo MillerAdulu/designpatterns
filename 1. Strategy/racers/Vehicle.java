@@ -1,3 +1,7 @@
+package racers;
+
+import algorithms.GoAlgorithm;
+
 public abstract class Vehicle {
 
     private GoAlgorithm goAlgorithm;

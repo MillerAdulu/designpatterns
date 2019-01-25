@@ -1,7 +1,9 @@
-import algorithms.GoByDrivingFastAlgorithm;
+package racers;
+
+import algorithms.*;
 
 public class FormulaOne extends Vehicle {
     public FormulaOne() {
-        setGoAlgorithm(new GoByDrivingFastAlgorithm);
+        setGoAlgorithm(new GoByDrivingFastAlgorithm());
     }
 }

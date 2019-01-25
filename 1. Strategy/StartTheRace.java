@@ -1,7 +1,7 @@
-import algorithms.*;
 import racers.*;
 
 public class StartTheRace {
+    public static void main(String[] args) {
     StreetRacer streetRacer = new StreetRacer();
     FormulaOne formulaOne = new FormulaOne();
     Helicopter helicopter = new Helicopter();
@@ -11,4 +11,5 @@ public class StartTheRace {
     formulaOne.go();
     helicopter.go();
     jet.go();
+    }
 }
